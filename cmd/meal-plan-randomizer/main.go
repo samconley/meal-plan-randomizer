@@ -22,7 +22,7 @@ type MealsDTO struct {
 
 func main() {
 	fmt.Println("Starting meal-plan-randomizer...")
-	data := readMealsFromFile("../../etc/meals.json")
+	data := readMealsFromFile("etc/meals.json")
 	smsSendRandomMeals(data.Meals, 3)
 	fmt.Println("\nDone")
 }
