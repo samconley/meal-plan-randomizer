@@ -1,0 +1,79 @@
+{
+    "meals": [
+        {
+            "name": "Lasagna",
+            "ingredients": [
+                "1 box frozen lasagna"
+            ],
+            "sides": [
+                "salad",
+                "garlic bread"
+            ]
+        },
+        {
+            "name": "Grilled Hamburgers",
+            "ingredients":[
+                "1 lb. ground beef",
+                "hamburger buns",
+                "tomato",
+                "cheddar cheese"
+            ],
+            "sides": [
+                "macaroni & cheese",
+                "french fries",
+                "corn on the cob"
+            ]
+        },
+        {
+            "name": "Chicken Pot Pie",
+            "ingredients":[
+                "1 lb. chicken breast",
+                "1 bag frozen vegetables",
+                "10.5 oz cream of celery soup",
+                "2 pie crusts",
+                "1 cup chicken broth"
+            ]
+        },
+        {
+            "name": "Mediterranean Tacos",
+            "ingredients":[
+                "1 lb. chicken breast",
+                "pita bread",
+                "feta cheese",
+                "tzatziki sauce",
+                "tomato",
+                "cucumber",
+                "hummus"
+            ]
+        },
+        {
+            "name": "Pesto Turkey Burgers",
+            "ingredients": [
+                "1 lb. ground turkey",
+                "basil pesto",
+                "panko breadcrumbs",
+                "hamburger buns",
+                "tomato"
+            ],
+            "sides": [
+                "macaroni & cheese",
+                "french fries",
+                "salad"
+            ]
+        }, 
+        {
+            "name": "Naan Pizzas",
+            "ingredients": [
+                "naan bread",
+                "mozzarella ball",
+                "basil leaves",
+                "basil pesto",
+                "sun-dried tomatoes",
+                "prosciutto",
+                "fig jam",
+                "banana peppers",
+                "garlic"
+            ]
+        }
+    ]
+}
