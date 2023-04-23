@@ -81,7 +81,7 @@ func composeMessageFromMeal(meal *Meal) {
 func sendMsg(msg string) {
 	from := os.Getenv("FROM_EMAIL")
 	password := os.Getenv("EMAIL_PASSWORD")
-	toList := []string{os.Getenv("TO_LIST")}
+	toList := strings.Split(os.Getenv("TO_LIST"), ",")
 	host := os.Getenv("SMTP_HOST")
 	port := os.Getenv("SMTP_HOST_PORT")
 	auth := smtp.PlainAuth("", from, password, host)
