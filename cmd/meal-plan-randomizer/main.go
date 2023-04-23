@@ -83,7 +83,9 @@ func sendMsg(msg string) {
 	password := os.Getenv("EMAIL_PASSWORD")
 	toList := []string{os.Getenv("TO_LIST")}
 	host := os.Getenv("SMTP_HOST")
+	fmt.Printf("\nSMTP_HOST: %v", host)
 	port := os.Getenv("SMTP_HOST_PORT")
+	fmt.Printf("\nSMTP_HOST_PORT: %v", port)
 	auth := smtp.PlainAuth("", from, password, host)
 	if err := smtp.SendMail(host+":"+port, auth, from, toList, []byte(msg)); err != nil {
 		fmt.Printf("error: %v", err)
