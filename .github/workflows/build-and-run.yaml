@@ -3,6 +3,13 @@ name: Run
 on:
   push
 
+env:
+    FROM_EMAIL: ${{secrets.FROM_EMAIL}}
+    EMAIL_PASSWORD: ${{secrets.EMAIL_PASSWORD}}
+    TO_LIST: ${{secrets.TO_LIST}}
+    SMTP_HOST: ${{secrets.SMTP_HOST}}
+    SMTP_HOST_PORT: ${{secrets.SMTP_HOST_PORT}}
+
 jobs:
 
   build:
