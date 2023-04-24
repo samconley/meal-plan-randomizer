@@ -11,9 +11,10 @@ import (
 )
 
 type Meal struct {
-	Name        string   `json:"name"`
-	Ingredients []string `json:"ingredients"`
-	Sides       []string `json:"sides"`
+	Name        string    `json:"name"`
+	Ingredients []string  `json:"ingredients"`
+	Sides       []string  `json:"sides"`
+	LastUsed    time.Time `json:"lastUsed"`
 }
 
 type MealsDTO struct {
