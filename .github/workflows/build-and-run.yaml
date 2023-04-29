@@ -50,7 +50,7 @@ jobs:
         name: updated-list
     
     - name: Cat contents
-      run: cat etc/updated_meals.json
+      run: cat updated_meals.json
 
     # - name: Cat contents
     #   run: cat etc/updated-list.json > etc/meals.json
