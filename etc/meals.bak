@@ -1,0 +1,150 @@
+{
+    "meals": [
+        {
+            "name": "Lasagna",
+            "ingredients": [
+                "1 box frozen lasagna"
+            ],
+            "sides": [
+                "salad",
+                "garlic bread"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Grilled Hamburgers",
+            "ingredients":[
+                "1 lb. ground beef",
+                "hamburger buns",
+                "tomato",
+                "cheddar cheese"
+            ],
+            "sides": [
+                "macaroni and cheese",
+                "french fries",
+                "corn on the cob"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Chicken Pot Pie",
+            "ingredients":[
+                "1 lb. chicken breast",
+                "1 bag frozen vegetables",
+                "10.5 oz cream of celery soup",
+                "2 pie crusts",
+                "1 cup chicken broth"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Mediterranean Tacos",
+            "ingredients":[
+                "1 lb. chicken breast",
+                "pita bread",
+                "feta cheese",
+                "tzatziki sauce",
+                "tomato",
+                "cucumber",
+                "hummus"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Pesto Turkey Burgers",
+            "ingredients": [
+                "1 lb. ground turkey",
+                "basil pesto",
+                "panko breadcrumbs",
+                "hamburger buns",
+                "tomato"
+            ],
+            "sides": [
+                "macaroni and cheese",
+                "french fries",
+                "salad"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        }, 
+        {
+            "name": "Naan Pizzas",
+            "ingredients": [
+                "naan bread",
+                "mozzarella ball",
+                "basil leaves",
+                "basil pesto",
+                "sun-dried tomatoes",
+                "prosciutto",
+                "fig jam",
+                "banana peppers",
+                "garlic"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Spaghetti and Meatballs",
+            "ingredients": [
+                "1 box spaghetti",
+                "1 jar pasta sauce",
+                "1 unit frozen meatballs",
+                "parmesan cheese"
+            ],
+            "sides": [
+                "salad",
+                "garlic bread"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Steak and Caesar",
+            "ingredients": [
+                "2 steaks",
+                "1 yellow onion",
+                "mushrooms",
+                "crumbled blue cheese"
+            ],
+            "sides": [
+                "caesar salad"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"         
+        },
+        {
+            "name": "Tacos",
+            "ingredients": [
+                "1 taco kit",
+                "1 lb. ground turkey",
+                "sour cream",
+                "tomatos",
+                "1 can refried beans",
+                "avocado"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Quesadillas",
+            "ingredients": [
+                "flour tortillas",
+                "pre-cooked chicken",
+                "cumin",
+                "chili powder",
+                "sour cream",
+                "avocado",
+                "tomato"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        },
+        {
+            "name": "Grilled Bratwurst",
+            "ingredients": [
+                "1 package brats",
+                "hot dog buns"
+            ],
+            "sides": [
+                "potato salad",
+                "baked beans",
+                "corn on the cob"
+            ],
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        }
+    ]
+}
