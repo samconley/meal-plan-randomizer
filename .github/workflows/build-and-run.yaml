@@ -52,8 +52,11 @@ jobs:
     - name: Cat contents
       run: cat updated_meals.json
 
-    # - name: Cat contents
-    #   run: cat etc/updated-list.json > etc/meals.json
+    - name: Overwrite meal list
+      run: cat updated_meals.json > etc/meals.json
+
+    - name: Cat overwritten file
+      run: cat etc/meals.json
 
     # - name: Commit and push changes
     #   uses: stefanzweifel/git-auto-commit-action@v4
