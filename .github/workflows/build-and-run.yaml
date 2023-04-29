@@ -55,11 +55,5 @@ jobs:
     - name: Overwrite meal list
       run: cat updated_meals.json > etc/meals.json
 
-    - name: Cat overwritten file
-      run: cat etc/meals.json
-
-    # - name: Commit and push changes
-    #   uses: stefanzweifel/git-auto-commit-action@v4
-    #   with:
-    #     commit_message: "Add greeting to myfile.txt"
-    #     commit_options: "--author 'GitHub Actions <actions@github.com>'"
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
