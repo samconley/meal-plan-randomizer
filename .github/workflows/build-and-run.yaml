@@ -23,7 +23,7 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: CGO_ENABLED=0 go build -v ./...
+      run: CGO_ENABLED=0 go build -v ./cmd/meal-plan-randomizer
     
     - name: Run
       run: ./meal-plan-randomizer
