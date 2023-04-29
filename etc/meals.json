@@ -20,7 +20,7 @@
                 "cheddar cheese"
             ],
             "sides": [
-                "macaroni & cheese",
+                "macaroni and cheese",
                 "french fries",
                 "corn on the cob"
             ],
@@ -60,7 +60,7 @@
                 "tomato"
             ],
             "sides": [
-                "macaroni & cheese",
+                "macaroni and cheese",
                 "french fries",
                 "salad"
             ],
@@ -82,7 +82,7 @@
             "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
-            "name": "Spaghetti & Meatballs",
+            "name": "Spaghetti and Meatballs",
             "ingredients": [
                 "1 box spaghetti",
                 "1 jar pasta sauce",
@@ -96,7 +96,7 @@
             "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
-            "name": "Steak & Caesar",
+            "name": "Steak and Caesar",
             "ingredients": [
                 "2 steaks",
                 "1 yellow onion",

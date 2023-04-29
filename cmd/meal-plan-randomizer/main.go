@@ -1,92 +1,60 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
-	"math/rand"
-	"net/smtp"
-	"os"
-	"strings"
+	"meal-plan-randomizer/internal/model"
+	"meal-plan-randomizer/internal/service"
 	"time"
 )
 
-type Meal struct {
-	Name        string    `json:"name"`
-	Ingredients []string  `json:"ingredients"`
-	Sides       []string  `json:"sides"`
-	LastUsed    time.Time `json:"lastUsed"`
-}
-
-type MealsDTO struct {
-	Meals []*Meal `json:"meals"`
-}
-
 func main() {
 	fmt.Println("Starting meal-plan-randomizer...")
-	data := readMealsFromFile("etc/meals.json")
-	smsSendRandomMeals(data.Meals, 3)
-	fmt.Println("\nDone")
-}
 
-func readMealsFromFile(filePath string) *MealsDTO {
-	content, err := os.ReadFile(filePath)
+	smsConfig := model.NewSmsConfig()
+	smsMessageService := service.NewSmsMessageService(smsConfig)
+
+	mealConfig, err := model.NewMealConfig()
 	if err != nil {
 		panic(err)
 	}
 
-	var data MealsDTO
-	if err = json.Unmarshal(content, &data); err != nil {
-		panic(err)
+	fileService := service.NewFileService(mealConfig)
+	data := fileService.ReadMealsFromFile()
+
+	numberOfMealsToSend := mealConfig.NumberOfMealsToSend
+
+	if err != nil || numberOfMealsToSend > len(data.Meals) {
+		fmt.Println("number of meals to send not correctly configured or too many")
+		return
 	}
 
-	return &data
-}
-
-func smsSendRandomMeals(mealList []*Meal, numberOfMealsToSend int) {
-	r := rand.New(rand.NewSource(time.Now().UnixNano()))
-
-	for i := 0; i < numberOfMealsToSend; i++ {
-		randIndex := r.Intn(len(mealList))
-		meal := mealList[randIndex]
-		composeMessageFromMeal(meal)
-		mealList = removeMealAtIndex(mealList, randIndex)
-	}
-}
-
-func removeMealAtIndex(meals []*Meal, index int) []*Meal {
-	return append(meals[:index], meals[index+1:]...)
-}
-
-func composeMessageFromMeal(meal *Meal) {
-	sb := &strings.Builder{}
-
-	sb.WriteString("\n" + meal.Name)
-
-	sb.WriteString("\nSupplies - ")
-	for _, ingredient := range meal.Ingredients {
-		sb.WriteString(ingredient + ",")
+	eligibleMeals := getEligibleMeals(data.Meals, 7)
+	if len(eligibleMeals) < numberOfMealsToSend {
+		fmt.Println("error: not enough meals to send")
+		return
 	}
 
-	if len(meal.Sides) > 0 {
-		sb.WriteString("\nSides - ")
+	randomIndices := service.GetRandomIndices(len(eligibleMeals), numberOfMealsToSend)
+	for _, idx := range randomIndices {
+		meal := eligibleMeals[idx]
+		smsMessageService.ComposeMessageFromMeal(meal)
+		meal.LastUsed = time.Now().UTC()
+	}
 
-		for _, side := range meal.Sides {
-			sb.WriteString(side + ",")
+	fileService.SaveUpdatedMeals(data.Meals)
+
+	fmt.Println("\nDone")
+}
+
+func getEligibleMeals(mealList []*model.Meal, lessRecentThanDays int) []*model.Meal {
+	var eligibleMeals []*model.Meal
+	for i := 0; i < len(mealList); i++ {
+		lastEligibleDate := time.Now().AddDate(0, 0, (-1 * lessRecentThanDays))
+
+		if mealList[i].LastUsed.Before(lastEligibleDate) {
+			eligibleMeals = append(eligibleMeals, mealList[i])
 		}
 	}
 
-	sendMsg(sb.String())
-}
-
-// TODO: DO NOT CHECK-IN!!! Set as github secrets and pull from environment.
-func sendMsg(msg string) {
-	from := os.Getenv("FROM_EMAIL")
-	password := os.Getenv("EMAIL_PASSWORD")
-	toList := strings.Split(os.Getenv("TO_LIST"), ",")
-	host := os.Getenv("SMTP_HOST")
-	port := os.Getenv("SMTP_HOST_PORT")
-	auth := smtp.PlainAuth("", from, password, host)
-	if err := smtp.SendMail(host+":"+port, auth, from, toList, []byte(msg)); err != nil {
-		fmt.Printf("error: %v", err)
-	}
+	return eligibleMeals
 }
