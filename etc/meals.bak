@@ -9,11 +9,11 @@
                 "salad",
                 "garlic bread"
             ],
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Grilled Hamburgers",
-            "ingredients": [
+            "ingredients":[
                 "1 lb. ground beef",
                 "hamburger buns",
                 "tomato",
@@ -24,23 +24,22 @@
                 "french fries",
                 "corn on the cob"
             ],
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Chicken Pot Pie",
-            "ingredients": [
+            "ingredients":[
                 "1 lb. chicken breast",
                 "1 bag frozen vegetables",
                 "10.5 oz cream of celery soup",
                 "2 pie crusts",
                 "1 cup chicken broth"
             ],
-            "sides": null,
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Mediterranean Tacos",
-            "ingredients": [
+            "ingredients":[
                 "1 lb. chicken breast",
                 "pita bread",
                 "feta cheese",
@@ -49,8 +48,7 @@
                 "cucumber",
                 "hummus"
             ],
-            "sides": null,
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Pesto Turkey Burgers",
@@ -66,8 +64,8 @@
                 "french fries",
                 "salad"
             ],
-            "lastUsed": "1970-01-01T00:00:01Z"
-        },
+            "lastUsed": "1970-01-01T00:00:01.000Z"
+        }, 
         {
             "name": "Naan Pizzas",
             "ingredients": [
@@ -81,8 +79,7 @@
                 "banana peppers",
                 "garlic"
             ],
-            "sides": null,
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Spaghetti and Meatballs",
@@ -96,7 +93,7 @@
                 "salad",
                 "garlic bread"
             ],
-            "lastUsed": "2023-04-29T21:13:38.170430163Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Steak and Caesar",
@@ -109,7 +106,7 @@
             "sides": [
                 "caesar salad"
             ],
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"         
         },
         {
             "name": "Tacos",
@@ -121,8 +118,7 @@
                 "1 can refried beans",
                 "avocado"
             ],
-            "sides": null,
-            "lastUsed": "1970-01-01T00:00:01Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Quesadillas",
@@ -135,8 +131,7 @@
                 "avocado",
                 "tomato"
             ],
-            "sides": null,
-            "lastUsed": "2023-04-29T21:13:37.527646058Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         },
         {
             "name": "Grilled Bratwurst",
@@ -149,7 +144,7 @@
                 "baked beans",
                 "corn on the cob"
             ],
-            "lastUsed": "2023-04-29T21:13:38.870437503Z"
+            "lastUsed": "1970-01-01T00:00:01.000Z"
         }
     ]
 }

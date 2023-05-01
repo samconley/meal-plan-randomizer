@@ -9,6 +9,9 @@ env:
     TO_LIST: ${{secrets.TO_LIST}}
     SMTP_HOST: ${{secrets.SMTP_HOST}}
     SMTP_HOST_PORT: ${{secrets.SMTP_HOST_PORT}}
+    LESS_RECENT_THAN_DAYS: ${{ vars.LESS_RECENT_THAN_DAYS }}
+    NUM_MEALS_TO_SEND: ${{ vars.NUM_MEALS_TO_SEND }}
+    SOURCE_FILE_DIR: ${{ vars.SOURCE_FILE_DIR }}
 
 jobs:
 
@@ -23,7 +26,39 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: CGO_ENABLED=0 go build -v ./...
+      run: CGO_ENABLED=0 go build -v ./cmd/meal-plan-randomizer
     
     - name: Run
       run: ./meal-plan-randomizer
+
+    - name: Uploaded updated meal list
+      uses: actions/upload-artifact@v2
+      with:
+        name: updated-list
+        path: etc/updated_meals.json
+
+  update-list:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    
+    - uses: actions/checkout@v3
+    
+    - name: Download artifact and access file
+      uses: actions/download-artifact@v2
+      with:
+        name: updated-list
+    
+    - name: Cat contents
+      run: cat updated_meals.json
+
+    - name: Overwrite meal list
+      run: cat updated_meals.json > etc/meals.json
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Automated Change
