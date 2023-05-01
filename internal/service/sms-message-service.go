@@ -1,7 +1,7 @@
 package service
 
 import (
-	"fmt"
+	"log"
 	"meal-plan-randomizer/internal/model"
 	"net/smtp"
 	"strings"
@@ -43,6 +43,6 @@ func (s *SmsMessageService) sendMsg(msg string) {
 	auth := smtp.PlainAuth("", cfg.FromEmail, cfg.EmailPassword, cfg.SmtpHost)
 
 	if err := smtp.SendMail(cfg.SmtpHost+":"+cfg.SmtpPort, auth, cfg.FromEmail, cfg.ToList, []byte(msg)); err != nil {
-		fmt.Printf("error: %v", err)
+		log.Printf("error: %v", err)
 	}
 }

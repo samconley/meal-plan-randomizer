@@ -1,21 +1,21 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"meal-plan-randomizer/internal/model"
 	"meal-plan-randomizer/internal/service"
 	"time"
 )
 
 func main() {
-	fmt.Println("Starting meal-plan-randomizer...")
+	log.Println("Starting meal-plan-randomizer...")
 
 	smsConfig := model.NewSmsConfig()
 	smsMessageService := service.NewSmsMessageService(smsConfig)
 
 	mealConfig, err := model.NewMealConfig()
 	if err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	fileService := service.NewFileService(mealConfig)
@@ -24,13 +24,13 @@ func main() {
 	numberOfMealsToSend := mealConfig.NumberOfMealsToSend
 
 	if err != nil || numberOfMealsToSend > len(data.Meals) {
-		fmt.Println("number of meals to send not correctly configured or too many")
+		log.Println("number of meals to send not correctly configured or too many")
 		return
 	}
 
 	eligibleMeals := getEligibleMeals(data.Meals, 7)
 	if len(eligibleMeals) < numberOfMealsToSend {
-		fmt.Println("error: not enough meals to send")
+		log.Println("error: not enough meals to send")
 		return
 	}
 
@@ -43,7 +43,7 @@ func main() {
 
 	fileService.SaveUpdatedMeals(data.Meals)
 
-	fmt.Println("\nDone")
+	log.Println("\nDone")
 }
 
 func getEligibleMeals(mealList []*model.Meal, lessRecentThanDays int) []*model.Meal {
