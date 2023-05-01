@@ -2,7 +2,7 @@ package service
 
 import (
 	"encoding/json"
-	"fmt"
+	"log"
 	"meal-plan-randomizer/internal/model"
 	"os"
 )
@@ -21,12 +21,12 @@ func (f *FileService) ReadMealsFromFile() *model.MealsDTO {
 	content, err := os.ReadFile(f.MealConfig.SourceFileDir + "/meals.json")
 
 	if err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	var data model.MealsDTO
 	if err = json.Unmarshal(content, &data); err != nil {
-		panic(err)
+		log.Panic(err)
 	}
 
 	return &data
@@ -38,13 +38,13 @@ func (f *FileService) SaveUpdatedMeals(mealList []*model.Meal) {
 	}, "", "    ")
 
 	if err != nil {
-		fmt.Println("error serializing updated meal list")
+		log.Println("error serializing updated meal list")
 		return
 	}
 
 	out, err := os.Create(f.MealConfig.SourceFileDir + "/updated_meals.json")
 	if err != nil {
-		fmt.Println("error creating updated meals output file")
+		log.Println("error creating updated meals output file")
 		return
 	}
 

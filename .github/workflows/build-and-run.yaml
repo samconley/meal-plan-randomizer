@@ -1,7 +1,8 @@
 name: Run
 
 on:
-  push
+  schedule:
+    - cron: '0 14 * * 4'
 
 env:
     FROM_EMAIL: ${{secrets.FROM_EMAIL}}
@@ -15,7 +16,7 @@ env:
 
 jobs:
 
-  build:
+  run:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -38,7 +39,7 @@ jobs:
         path: etc/updated_meals.json
 
   update-list:
-    needs: build
+    needs: run
     runs-on: ubuntu-latest
     permissions:
       contents: write
