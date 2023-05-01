@@ -2,7 +2,7 @@ name: Run
 
 on:
   schedule:
-    - cron: '0 14 * * 4'
+    - cron: '0 14 * * 4' # every Thursday at 2:00 pm UTC
 
 env:
     FROM_EMAIL: ${{secrets.FROM_EMAIL}}
