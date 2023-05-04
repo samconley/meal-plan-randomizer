@@ -150,6 +150,48 @@
                 "corn on the cob"
             ],
             "lastUsed": "2023-04-29T21:13:38.870437503Z"
+        },
+        {
+            "name": "Grilled Cheese",
+            "ingredients": [
+                "sliced or block cheese",
+                "bread",
+                "garlic",
+                "butter"
+            ],
+            "sides": [
+                "tomato soup"
+            ],
+            "lastUsed": "1970-01-01T00:00:01Z"
+        },
+        {
+            "name": "Fish Tacos",
+            "ingredients": [
+                "1lb. white fish",
+                "cumin",
+                "garlic powder",
+                "paprika",
+                "olive oil",
+                "2 limes",
+                "sour cream",
+                "mayonnaise",
+                "red cabbage",
+                "corn tortillas",
+                "avocado",
+                "cotija cheese",
+                "pico de gallo OR mango salsa",
+                "garlic"
+            ]
+        },
+        {
+            "name": "Pot Roast",
+            "ingredients":[
+                "chuck roast",
+                "potatoes",
+                "carrots",
+                "cream of mushroom soup",
+                "french onion soup packet"
+            ]
         }
     ]
 }
