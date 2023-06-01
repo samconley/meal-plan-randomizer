@@ -28,7 +28,7 @@ func main() {
 		return
 	}
 
-	eligibleMeals := getEligibleMeals(data.Meals, 7)
+	eligibleMeals := getEligibleMeals(data.Meals, mealConfig.LessRecentThanDays)
 	if len(eligibleMeals) < numberOfMealsToSend {
 		log.Println("error: not enough meals to send")
 		return
