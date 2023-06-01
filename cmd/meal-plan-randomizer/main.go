@@ -48,11 +48,11 @@ func main() {
 
 func getEligibleMeals(mealList []*model.Meal, lessRecentThanDays int) []*model.Meal {
 	var eligibleMeals []*model.Meal
-	for i := 0; i < len(mealList); i++ {
+	for _, meal := range mealList {
 		lastEligibleDate := time.Now().AddDate(0, 0, (-1 * lessRecentThanDays))
 
-		if mealList[i].LastUsed.Before(lastEligibleDate) {
-			eligibleMeals = append(eligibleMeals, mealList[i])
+		if meal.LastUsed.Before(lastEligibleDate) {
+			eligibleMeals = append(eligibleMeals, meal)
 		}
 	}
 
