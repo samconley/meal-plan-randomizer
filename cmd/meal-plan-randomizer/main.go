@@ -34,6 +34,9 @@ func main() {
 		return
 	}
 
+	preamble := "Behold! These are the meals you shall consume this week: "
+	smsMessageService.SendMsg(preamble)
+
 	randomIndices := service.GetRandomIndices(len(eligibleMeals), numberOfMealsToSend)
 	for _, idx := range randomIndices {
 		meal := eligibleMeals[idx]

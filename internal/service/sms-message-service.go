@@ -35,10 +35,19 @@ func (s *SmsMessageService) ComposeMessageFromMeal(meal *model.Meal) {
 		}
 	}
 
-	s.sendMsg(sb.String())
+	smsCharLimit := 160
+	msg := sb.String()
+
+	for len(msg) > smsCharLimit {
+		msgPart := msg[:smsCharLimit]
+		s.SendMsg(msgPart)
+		msg = msg[smsCharLimit:]
+	}
+
+	s.SendMsg(msg)
 }
 
-func (s *SmsMessageService) sendMsg(msg string) {
+func (s *SmsMessageService) SendMsg(msg string) {
 	cfg := s.Config
 	auth := smtp.PlainAuth("", cfg.FromEmail, cfg.EmailPassword, cfg.SmtpHost)
 
