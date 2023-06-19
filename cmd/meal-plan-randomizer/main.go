@@ -23,8 +23,8 @@ func main() {
 
 	numberOfMealsToSend := mealConfig.NumberOfMealsToSend
 
-	if err != nil || numberOfMealsToSend > len(data.Meals) {
-		log.Println("number of meals to send not correctly configured or too many")
+	if numberOfMealsToSend > len(data.Meals) {
+		log.Println("number of meals to send too many")
 		return
 	}
 
@@ -34,7 +34,7 @@ func main() {
 		return
 	}
 
-	preamble := "Behold! These are the meals you shall consume this week: "
+	preamble := "Behold! The meals you shall consume this week: "
 	smsMessageService.SendMsg(preamble)
 
 	randomIndices := service.GetRandomIndices(len(eligibleMeals), numberOfMealsToSend)
