@@ -34,7 +34,7 @@ func main() {
 		return
 	}
 
-	preamble := "Behold! The meals you shall consume this week: "
+	preamble := "Behold! The meals you shall consume this week... "
 	smsMessageService.SendMsg(preamble)
 
 	randomIndices := service.GetRandomIndices(len(eligibleMeals), numberOfMealsToSend)
