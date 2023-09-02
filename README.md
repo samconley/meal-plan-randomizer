@@ -1,5 +1,5 @@
 ## Meal Plan Randomizer
-Selects meals at random from a pre-defined list of recipes you provide and sends them to your phone.
+Sends to your phone a random selection of meals from a pre-defined list of recipes that you provide.
 
 ## Running the project for yourself
 1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) project.
