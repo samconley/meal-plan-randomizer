@@ -136,7 +136,7 @@
                 "tomato"
             ],
             "sides": null,
-            "lastUsed": "2023-07-20T14:10:45.038426585Z"
+            "lastUsed": "2023-09-07T14:10:37.087472268Z"
         },
         {
             "name": "Grilled Bratwurst",
@@ -211,7 +211,7 @@
                 "sriracha mayo",
                 "guacamole"
             ],
-            "sides":[
+            "sides": [
                 "corn on the cob",
                 "sour cream",
                 "chili powder",
@@ -234,17 +234,17 @@
                 "potato chips",
                 "macaroni and cheese"
             ],
-            "lastUsed": "2023-08-03T14:10:42.702278503Z"
+            "lastUsed": "2023-09-07T14:10:38.224110702Z"
         },
         {
             "name": "Baked Salmon",
-            "ingredients":[
+            "ingredients": [
                 "2 salmon filets",
                 "lemon",
                 "garlic",
                 "butter"
             ],
-            "sides":[
+            "sides": [
                 "caesar salad"
             ],
             "lastUsed": "2023-08-03T14:10:42.702278503Z"
