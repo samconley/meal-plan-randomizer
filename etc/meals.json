@@ -305,6 +305,20 @@
                 "salad"
             ],
             "lastUsed": "2023-09-07T14:10:42.702278503Z"
+        },
+        {
+            "name": "Split Pea Soup",
+            "ingredients":[
+                "1lb split green peas",
+                "1 medium yellow onion",
+                "1 large rib celery",
+                "6 oz. ham steak diced, or 1 ham hock",
+                "garlic",
+                "1L low-sodium chicken stock"
+            ],
+            "sides": [
+                "bread and butter"
+            ]
         }
     ]
 }
