@@ -320,6 +320,34 @@
                 "bread and butter"
             ],
             "lastUsed": "2024-10-10T14:14:08.571532116Z"
+        },
+        {
+            "name": "Pork Banh Mi Burgers",
+            "ingredients": [
+                "1lb ground pork",
+                "small cucumbers",
+                "1 thumb of ginger",
+                "shredded carrots",
+                "lime",
+                "cilantro"
+            ],
+            "sides": [
+                "roasted potatoes"
+            ],
+            "lastUsed": "2024-11-28T14:14:47.458557492Z"
+        },
+        {
+            "name": "Baked Feta Pasta",
+            "ingredients": [
+                "1 box pasta",
+                "1 8oz. block feta cheese",
+                "20 oz. cherry tomatoes",
+                "garlic"
+            ],
+            "sides": [
+                "salad"
+            ],
+            "lastUsed": "2024-11-25T14:12:15.77009373Z"
         }
     ]
 }
