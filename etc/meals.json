@@ -348,6 +348,35 @@
                 "salad"
             ],
             "lastUsed": "2025-08-28T14:16:33.788737572Z"
+        },
+        {
+            "name": "Stir Fry Sesame Pork",
+            "ingredients": [
+                "1lb ground pork",
+                "Udon noodles",
+                "Sesame sauce",
+                "garlic",
+                "ginger",
+                "shredded carrots",
+                "mushrooms"
+            ],
+            "sides": null,
+            "lastUsed": "2025-11-04T14:16:33.788737572Z"
+        },
+        {
+            "name": "Veggie Chicken Sandwich",
+            "ingredients": [
+                "morningstar vegetable chicken patties",
+                "hamburger buns",
+                "tomatoes",
+                "havarti cheese"
+            ],
+            "sides": [
+                "macaroni and cheese",
+                "potato chips",
+                "potato salad"
+            ],
+            "lastUsed": "2025-10-18T14:16:33.788737572Z"
         }
     ]
 }
