@@ -28,10 +28,12 @@ func main() {
 		return
 	}
 
-	eligibleMeals := getEligibleMeals(data.Meals, mealConfig.LessRecentThanDays)
+	eligibleMeals := getEligibleMeals(data.Meals)
 	if len(eligibleMeals) < numberOfMealsToSend {
-		log.Println("error: not enough meals to send")
-		return
+		for _, meal := range data.Meals {
+			meal.Struck = false
+		}
+		eligibleMeals = getEligibleMeals(data.Meals)
 	}
 
 	preamble := "Behold! The meals you shall consume this week... "
@@ -42,6 +44,7 @@ func main() {
 		meal := eligibleMeals[idx]
 		smsMessageService.ComposeMessageFromMeal(meal)
 		meal.LastUsed = time.Now().UTC()
+		meal.Struck = true
 	}
 
 	fileService.SaveUpdatedMeals(data.Meals)
@@ -49,15 +52,13 @@ func main() {
 	log.Println("\nDone")
 }
 
-func getEligibleMeals(mealList []*model.Meal, lessRecentThanDays int) []*model.Meal {
-	var eligibleMeals []*model.Meal
+func getEligibleMeals(mealList []*model.Meal) []*model.Meal {
+	var unstruckMeals []*model.Meal
 	for _, meal := range mealList {
-		lastEligibleDate := time.Now().AddDate(0, 0, (-1 * lessRecentThanDays))
-
-		if meal.LastUsed.Before(lastEligibleDate) {
-			eligibleMeals = append(eligibleMeals, meal)
+		if !meal.Struck {
+			unstruckMeals = append(unstruckMeals, meal)
 		}
 	}
 
-	return eligibleMeals
+	return unstruckMeals
 }

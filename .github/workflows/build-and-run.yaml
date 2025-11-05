@@ -10,7 +10,6 @@ env:
     TO_LIST: ${{secrets.TO_LIST}}
     SMTP_HOST: ${{secrets.SMTP_HOST}}
     SMTP_HOST_PORT: ${{secrets.SMTP_HOST_PORT}}
-    LESS_RECENT_THAN_DAYS: ${{ vars.LESS_RECENT_THAN_DAYS }}
     NUM_MEALS_TO_SEND: ${{ vars.NUM_MEALS_TO_SEND }}
     SOURCE_FILE_DIR: ${{ vars.SOURCE_FILE_DIR }}
 

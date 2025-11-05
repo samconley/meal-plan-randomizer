@@ -18,8 +18,6 @@ Sends to your phone a random selection of meals from a pre-defined list of recip
 
 3. Optionally, you may edit the environment varibles to suit your needs:
 
-- `LESS_RECENT_THAN_DAYS` -- (Integer) The minimum number of days that must elapse before a meal is eligible to be chosen again.
-
 - `NUM_MEALS_TO_SEND` -- (Integer) The number of meals from your list to be sent each week.
 
 - `SOURCE_FILE_DIR` -- Relative directory where the meals.json file is located.

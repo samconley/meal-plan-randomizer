@@ -27,7 +27,6 @@ func NewSmsConfig() *SmsConfig {
 type MealConfig struct {
 	SourceFileDir       string
 	NumberOfMealsToSend int
-	LessRecentThanDays  int
 }
 
 func NewMealConfig() (*MealConfig, error) {
@@ -37,15 +36,8 @@ func NewMealConfig() (*MealConfig, error) {
 		return nil, err
 	}
 
-	lessRecentThenDaysStr := os.Getenv("LESS_RECENT_THAN_DAYS")
-	lessRecentThanDays, err := strconv.Atoi(lessRecentThenDaysStr)
-	if err != nil {
-		return nil, err
-	}
-
 	return &MealConfig{
 		SourceFileDir:       os.Getenv("SOURCE_FILE_DIR"),
 		NumberOfMealsToSend: numMealsToSend,
-		LessRecentThanDays:  lessRecentThanDays,
 	}, nil
 }
