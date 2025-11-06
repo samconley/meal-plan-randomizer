@@ -1,6 +1,7 @@
 name: Run
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 14 * * 4' # every Thursday at 2:00 pm UTC
 
