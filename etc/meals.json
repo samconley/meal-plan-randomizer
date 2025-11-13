@@ -38,8 +38,8 @@
                 "1 cup chicken broth"
             ],
             "sides": null,
-            "lastUsed": "2025-10-09T14:17:00.105264892Z",
-            "struck": false
+            "lastUsed": "2025-11-13T14:17:15.953122917Z",
+            "struck": true
         },
         {
             "name": "Mediterranean Tacos",
@@ -53,8 +53,8 @@
                 "hummus"
             ],
             "sides": null,
-            "lastUsed": "2025-10-30T14:17:30.255052994Z",
-            "struck": false
+            "lastUsed": "2025-11-13T14:17:19.018985846Z",
+            "struck": true
         },
         {
             "name": "Pesto Turkey Burgers",
@@ -356,8 +356,8 @@
             "sides": [
                 "roasted potatoes"
             ],
-            "lastUsed": "2025-09-04T14:15:27.168028745Z",
-            "struck": false
+            "lastUsed": "2025-11-13T14:17:17.584975506Z",
+            "struck": true
         },
         {
             "name": "Baked Feta Pasta",
