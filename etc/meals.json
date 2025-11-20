@@ -145,8 +145,8 @@
                 "tomato"
             ],
             "sides": null,
-            "lastUsed": "2025-10-30T14:17:28.495932456Z",
-            "struck": false
+            "lastUsed": "2025-11-20T14:17:51.689098179Z",
+            "struck": true
         },
         {
             "name": "Grilled Bratwurst",
@@ -309,8 +309,8 @@
                 "low sodium chicken broth"
             ],
             "sides": null,
-            "lastUsed": "2025-10-23T14:17:08.423526595Z",
-            "struck": false
+            "lastUsed": "2025-11-20T14:17:56.120404321Z",
+            "struck": true
         },
         {
             "name": "Texas Toast Pizza",
@@ -401,8 +401,8 @@
                 "potato chips",
                 "potato salad"
             ],
-            "lastUsed": "2025-10-18T14:16:33.788737572Z",
-            "struck": false
+            "lastUsed": "2025-11-20T14:17:54.712627097Z",
+            "struck": true
         }
     ]
 }
