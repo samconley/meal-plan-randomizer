@@ -70,8 +70,8 @@
                 "french fries",
                 "salad"
             ],
-            "lastUsed": "2025-09-11T14:16:19.965983462Z",
-            "struck": false
+            "lastUsed": "2025-12-04T14:19:02.061557715Z",
+            "struck": true
         },
         {
             "name": "Naan Pizzas",
@@ -195,8 +195,8 @@
                 "garlic"
             ],
             "sides": null,
-            "lastUsed": "2025-09-18T14:16:25.712089038Z",
-            "struck": false
+            "lastUsed": "2025-12-04T14:19:00.550870488Z",
+            "struck": true
         },
         {
             "name": "Pot Roast",
@@ -340,8 +340,8 @@
             "sides": [
                 "bread and butter"
             ],
-            "lastUsed": "2025-10-16T14:17:04.925506155Z",
-            "struck": false
+            "lastUsed": "2025-12-04T14:19:05.456485572Z",
+            "struck": true
         },
         {
             "name": "Pork Banh Mi Burgers",
