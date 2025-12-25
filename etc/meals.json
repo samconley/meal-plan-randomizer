@@ -102,8 +102,8 @@
                 "salad",
                 "garlic bread"
             ],
-            "lastUsed": "2025-08-21T14:16:52.423538234Z",
-            "struck": false
+            "lastUsed": "2025-12-25T14:17:10.716200748Z",
+            "struck": true
         },
         {
             "name": "Steak and Caesar",
@@ -130,8 +130,8 @@
                 "avocado"
             ],
             "sides": null,
-            "lastUsed": "2025-10-23T14:17:09.886742742Z",
-            "struck": false
+            "lastUsed": "2025-12-25T14:17:14.329277264Z",
+            "struck": true
         },
         {
             "name": "Quesadillas",
@@ -324,8 +324,8 @@
             "sides": [
                 "salad"
             ],
-            "lastUsed": "2025-10-09T14:16:58.783976388Z",
-            "struck": false
+            "lastUsed": "2025-12-25T14:17:13.036146358Z",
+            "struck": true
         },
         {
             "name": "Split Pea Soup",
