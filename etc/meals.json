@@ -10,7 +10,7 @@
                 "garlic bread"
             ],
             "lastUsed": "2025-12-11T14:20:09.768659811Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Grilled Hamburgers",
@@ -26,7 +26,7 @@
                 "corn on the cob"
             ],
             "lastUsed": "2025-11-06T17:36:25.206915791Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Chicken Pot Pie",
@@ -39,7 +39,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-11-13T14:17:15.953122917Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Mediterranean Tacos",
@@ -53,7 +53,7 @@
                 "hummus"
             ],
             "sides": null,
-            "lastUsed": "2025-11-13T14:17:19.018985846Z",
+            "lastUsed": "2026-01-01T14:17:18.935262436Z",
             "struck": true
         },
         {
@@ -71,7 +71,7 @@
                 "salad"
             ],
             "lastUsed": "2025-12-04T14:19:02.061557715Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Naan Pizzas",
@@ -88,7 +88,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-12-18T14:20:20.580836868Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Spaghetti and Meatballs",
@@ -103,7 +103,7 @@
                 "garlic bread"
             ],
             "lastUsed": "2025-12-25T14:17:10.716200748Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Steak and Caesar",
@@ -117,7 +117,7 @@
                 "caesar salad"
             ],
             "lastUsed": "2025-11-27T14:17:49.960161074Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Tacos",
@@ -131,7 +131,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-12-25T14:17:14.329277264Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Quesadillas",
@@ -146,7 +146,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-11-20T14:17:51.689098179Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Grilled Bratwurst",
@@ -160,7 +160,7 @@
                 "corn on the cob"
             ],
             "lastUsed": "2025-12-11T14:20:12.18765771Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Grilled Cheese",
@@ -195,7 +195,7 @@
                 "garlic"
             ],
             "sides": null,
-            "lastUsed": "2025-12-04T14:19:00.550870488Z",
+            "lastUsed": "2026-01-01T14:17:14.669568594Z",
             "struck": true
         },
         {
@@ -209,7 +209,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-11-27T14:17:48.649865044Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Steak Tacos",
@@ -233,7 +233,7 @@
                 "cotija cheese"
             ],
             "lastUsed": "2025-11-06T17:36:27.720257679Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Sloppy Joes",
@@ -250,7 +250,7 @@
                 "macaroni and cheese"
             ],
             "lastUsed": "2025-12-11T14:20:13.813572698Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Baked Salmon",
@@ -281,7 +281,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-12-18T14:20:18.895192024Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Tortellini in Spinach Tomato Sauce",
@@ -296,7 +296,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-12-18T14:20:16.011845396Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "One Pot Chicken and Vegetables Skillet",
@@ -310,7 +310,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-11-20T14:17:56.120404321Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Texas Toast Pizza",
@@ -325,7 +325,7 @@
                 "salad"
             ],
             "lastUsed": "2025-12-25T14:17:13.036146358Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Split Pea Soup",
@@ -341,7 +341,7 @@
                 "bread and butter"
             ],
             "lastUsed": "2025-12-04T14:19:05.456485572Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Pork Banh Mi Burgers",
@@ -357,7 +357,7 @@
                 "roasted potatoes"
             ],
             "lastUsed": "2025-11-13T14:17:17.584975506Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Baked Feta Pasta",
@@ -371,7 +371,7 @@
                 "salad"
             ],
             "lastUsed": "2025-11-06T17:36:28.852443426Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Stir Fry Sesame Pork",
@@ -386,7 +386,7 @@
             ],
             "sides": null,
             "lastUsed": "2025-11-27T14:17:47.047869955Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Veggie Chicken Sandwich",
@@ -401,7 +401,7 @@
                 "potato chips",
                 "potato salad"
             ],
-            "lastUsed": "2025-11-20T14:17:54.712627097Z",
+            "lastUsed": "2026-01-01T14:17:17.012196189Z",
             "struck": true
         }
     ]
