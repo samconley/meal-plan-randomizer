@@ -9,8 +9,8 @@
                 "salad",
                 "garlic bread"
             ],
-            "lastUsed": "2025-12-11T14:20:09.768659811Z",
-            "struck": false
+            "lastUsed": "2026-02-19T14:43:09.471163865Z",
+            "struck": true
         },
         {
             "name": "Grilled Hamburgers",
@@ -116,8 +116,8 @@
             "sides": [
                 "caesar salad"
             ],
-            "lastUsed": "2025-11-27T14:17:49.960161074Z",
-            "struck": false
+            "lastUsed": "2026-02-19T14:43:12.656780286Z",
+            "struck": true
         },
         {
             "name": "Tacos",
@@ -145,8 +145,8 @@
                 "tomato"
             ],
             "sides": null,
-            "lastUsed": "2025-11-20T14:17:51.689098179Z",
-            "struck": false
+            "lastUsed": "2026-02-19T14:43:11.110680164Z",
+            "struck": true
         },
         {
             "name": "Grilled Bratwurst",
