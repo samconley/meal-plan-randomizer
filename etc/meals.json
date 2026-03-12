@@ -263,8 +263,8 @@
             "sides": [
                 "caesar salad"
             ],
-            "lastUsed": "2026-01-15T14:22:14.509912454Z",
-            "struck": false
+            "lastUsed": "2026-03-12T14:44:48.303529589Z",
+            "struck": true
         },
         {
             "name": "Buffalo Chicken Tacos",
@@ -324,8 +324,8 @@
             "sides": [
                 "salad"
             ],
-            "lastUsed": "2026-01-29T14:35:56.841019425Z",
-            "struck": false
+            "lastUsed": "2026-03-12T14:44:49.851314969Z",
+            "struck": true
         },
         {
             "name": "Split Pea Soup",
@@ -401,8 +401,8 @@
                 "potato chips",
                 "potato salad"
             ],
-            "lastUsed": "2026-01-01T14:17:17.012196189Z",
-            "struck": false
+            "lastUsed": "2026-03-12T14:44:52.611004912Z",
+            "struck": true
         }
     ]
 }
