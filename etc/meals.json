@@ -26,7 +26,7 @@
                 "corn on the cob"
             ],
             "lastUsed": "2026-04-09T15:19:39.534258924Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Chicken Pot Pie",
@@ -39,7 +39,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-03-19T14:42:58.840823627Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Mediterranean Tacos",
@@ -71,7 +71,7 @@
                 "salad"
             ],
             "lastUsed": "2026-03-05T14:42:01.734625082Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Naan Pizzas",
@@ -88,7 +88,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-04-02T14:53:20.369179998Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Spaghetti and Meatballs",
@@ -103,7 +103,7 @@
                 "garlic bread"
             ],
             "lastUsed": "2026-03-19T14:43:03.953588786Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Steak and Caesar",
@@ -117,7 +117,7 @@
                 "caesar salad"
             ],
             "lastUsed": "2026-03-05T14:42:03.008580252Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Tacos",
@@ -131,7 +131,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-04-02T14:53:21.705889656Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Quesadillas",
@@ -146,7 +146,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-04-16T15:22:37.486752856Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Grilled Bratwurst",
@@ -159,7 +159,7 @@
                 "baked beans",
                 "corn on the cob"
             ],
-            "lastUsed": "2026-04-02T14:53:19.035098902Z",
+            "lastUsed": "2026-04-30T15:45:17.266112268Z",
             "struck": true
         },
         {
@@ -173,7 +173,7 @@
             "sides": [
                 "tomato soup"
             ],
-            "lastUsed": "2026-04-09T15:19:43.75568318Z",
+            "lastUsed": "2026-04-30T15:45:15.571555204Z",
             "struck": true
         },
         {
@@ -196,7 +196,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-03-19T14:43:02.201750944Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Pot Roast",
@@ -208,7 +208,7 @@
                 "french onion soup packet"
             ],
             "sides": null,
-            "lastUsed": "2026-03-26T15:01:13.991425013Z",
+            "lastUsed": "2026-04-30T15:45:14.07888665Z",
             "struck": true
         },
         {
@@ -233,7 +233,7 @@
                 "cotija cheese"
             ],
             "lastUsed": "2026-03-05T14:42:05.377598268Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Sloppy Joes",
@@ -250,7 +250,7 @@
                 "macaroni and cheese"
             ],
             "lastUsed": "2026-04-23T15:49:59.920252321Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Baked Salmon",
@@ -264,7 +264,7 @@
                 "caesar salad"
             ],
             "lastUsed": "2026-03-12T14:44:48.303529589Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Buffalo Chicken Tacos",
@@ -281,7 +281,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-04-16T15:22:34.841357585Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Tortellini in Spinach Tomato Sauce",
@@ -296,7 +296,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-04-23T15:49:58.499890477Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "One Pot Chicken and Vegetables Skillet",
@@ -310,7 +310,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-04-16T15:22:39.874174352Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Texas Toast Pizza",
@@ -325,7 +325,7 @@
                 "salad"
             ],
             "lastUsed": "2026-03-12T14:44:49.851314969Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Split Pea Soup",
@@ -341,7 +341,7 @@
                 "bread and butter"
             ],
             "lastUsed": "2026-04-09T15:19:42.433865927Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Pork Banh Mi Burgers",
@@ -357,7 +357,7 @@
                 "roasted potatoes"
             ],
             "lastUsed": "2026-04-23T15:50:01.300460447Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Baked Feta Pasta",
@@ -371,7 +371,7 @@
                 "salad"
             ],
             "lastUsed": "2026-03-26T15:01:15.309649418Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Stir Fry Sesame Pork",
@@ -386,7 +386,7 @@
             ],
             "sides": null,
             "lastUsed": "2026-03-26T15:01:12.208707716Z",
-            "struck": true
+            "struck": false
         },
         {
             "name": "Veggie Chicken Sandwich",
@@ -402,7 +402,7 @@
                 "potato salad"
             ],
             "lastUsed": "2026-03-12T14:44:52.611004912Z",
-            "struck": true
+            "struck": false
         }
     ]
 }
