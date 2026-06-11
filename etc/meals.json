@@ -70,8 +70,8 @@
                 "french fries",
                 "salad"
             ],
-            "lastUsed": "2026-03-05T14:42:01.734625082Z",
-            "struck": false
+            "lastUsed": "2026-06-11T17:34:23.848639108Z",
+            "struck": true
         },
         {
             "name": "Naan Pizzas",
@@ -102,8 +102,8 @@
                 "salad",
                 "garlic bread"
             ],
-            "lastUsed": "2026-03-19T14:43:03.953588786Z",
-            "struck": false
+            "lastUsed": "2026-06-11T17:34:25.522057611Z",
+            "struck": true
         },
         {
             "name": "Steak and Caesar",
@@ -280,8 +280,8 @@
                 "shredded cheddar cheese"
             ],
             "sides": null,
-            "lastUsed": "2026-04-16T15:22:34.841357585Z",
-            "struck": false
+            "lastUsed": "2026-06-11T17:34:28.466845191Z",
+            "struck": true
         },
         {
             "name": "Tortellini in Spinach Tomato Sauce",
