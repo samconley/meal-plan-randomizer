@@ -70,8 +70,8 @@
                 "french fries",
                 "salad"
             ],
-            "lastUsed": "2026-06-11T17:34:23.848639108Z",
-            "struck": false
+            "lastUsed": "2026-07-30T15:49:50.376506501Z",
+            "struck": true
         },
         {
             "name": "Naan Pizzas",
@@ -130,8 +130,8 @@
                 "avocado"
             ],
             "sides": null,
-            "lastUsed": "2026-05-21T16:37:02.299483154Z",
-            "struck": false
+            "lastUsed": "2026-07-30T15:49:48.999446779Z",
+            "struck": true
         },
         {
             "name": "Quesadillas",
@@ -356,8 +356,8 @@
             "sides": [
                 "roasted potatoes"
             ],
-            "lastUsed": "2026-05-28T17:33:02.93127388Z",
-            "struck": false
+            "lastUsed": "2026-07-30T15:49:47.599234231Z",
+            "struck": true
         },
         {
             "name": "Baked Feta Pasta",
