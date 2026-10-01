@@ -87,8 +87,8 @@
                 "garlic"
             ],
             "sides": null,
-            "lastUsed": "2026-07-09T16:25:09.792181148Z",
-            "struck": false
+            "lastUsed": "2026-10-01T19:15:14.385254707Z",
+            "struck": true
         },
         {
             "name": "Spaghetti and Meatballs",
@@ -173,8 +173,8 @@
             "sides": [
                 "tomato soup"
             ],
-            "lastUsed": "2026-07-23T15:52:25.163292918Z",
-            "struck": false
+            "lastUsed": "2026-10-01T19:15:07.61802807Z",
+            "struck": true
         },
         {
             "name": "Fish Tacos",
@@ -401,8 +401,8 @@
                 "potato chips",
                 "potato salad"
             ],
-            "lastUsed": "2026-06-25T16:21:03.994846982Z",
-            "struck": false
+            "lastUsed": "2026-10-01T19:15:12.803281309Z",
+            "struck": true
         }
     ]
 }
